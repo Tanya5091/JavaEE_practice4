@@ -1,9 +1,7 @@
 package library;
 
-public class MyLibraryClass {
+public interface MyLibraryClass {
 
-    public void printInfo() {
-        System.out.println("My class from library");
-    }
+    public void printInfo();
 
 }

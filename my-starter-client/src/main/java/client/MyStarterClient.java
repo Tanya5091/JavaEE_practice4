@@ -14,7 +14,5 @@ public class MyStarterClient {
         MyLibraryClass myLibraryClassByClass = applicationContext.getBean(MyLibraryClass.class);
         myLibraryClassByClass.printInfo();
 
-        MyLibraryClass myLibraryClass = (MyLibraryClass) applicationContext.getBean("myLibraryClass");
-        myLibraryClass.printInfo();
     }
 }
